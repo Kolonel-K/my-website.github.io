@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+nav{
+	font-family: 'Montserrat' ;
+	background-color:#1a1a1a ;
+	font-size: 20px;
+}
+
+#navh1{
+	color: #ffe11f;
+	font-size: 30px;
+}
+
+*{
+	font-family:"Montserrat";
+	color: #8EE4AF;
+}
+
+footer{
+	font-family: 'Roboto Condensed';
+	background-color: #1a1a1a;
+}
+
+html{
+	height: 100%;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #2b2b2b;
+}
+
+
+#navbarSupportedContent{
+	margin-left: 10px;
+}
+
+.slides{
+	width:100%;
+}
+
+iframe{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+.text-box {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 8vw;
+	font-weight: 900;
+	background-color: #5cdb95;
+	color: #2b2b2b;
+	display: block;
+	padding: .5em;
+}
+
+h1:nth-child(2) {
+	position: absolute;
+	background-color: #2b2b2b;
+	color: #5cdb95;
+	clip-path: inset(-1% -1% 50% -1%); // Added the negative values to prevent icky "bleed" in Chrome
+}
+
