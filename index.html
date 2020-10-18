@@ -16,7 +16,7 @@
 <body>
   <header> 
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="/" id="navh1"><img src="logo.svg" width="55" alt="Logo"></a>
+        <a class="navbar-brand" href="/" id="logo"><img src="logo.svg" width="55" id="logo" alt="Logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,7 @@
   <div class="content">
     <div class="slides">
       <div class="container-fluid">
-        <div id="carouselExampleCaptions" class="carousel slide col-12" data-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -90,7 +90,7 @@
         </div>
     </div>
       <div class="thing">
-        <div class="text-box col-12">
+        <div class="text-box">
           <h1>My Favourites</h1>
           <h1>My Favourites</h1>
         </div>
@@ -149,6 +149,37 @@
           </div>
         </div>
       </div>
+  </div>
+  <div class="thing">
+        <div class="text-box">
+          <h1>Rock Paper Scissors</h1>
+          <h1>Rock Paper Scissors</h1>
+        </div>
+      </div> 
+  <div class="game">
+    <div class="score-board">
+      <div class="badge" id="user-label">User</div>
+      <div class="badge" id="comp-label">Comp</div>
+      <span class="score" id="user-score">0</span>:<span class="score" id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+      <p>Choose one</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="r">
+        <img src="rock.svg" alt="">
+      </div>
+      <div class="choice" id="p">
+        <img src="paper.svg" alt="">
+      </div>
+      <div class="choice" id="s">
+        <img src="scissors.svg" alt="">
+      </div>
+    </div>
+    
+    <script src="app.js" charset="UTF-8"></script>
   </div>
 
   <footer class="page-footer font-small blue">
